@@ -1,0 +1,144 @@
+img {
+  width: 100%;
+}
+.headertext{
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  color: white;
+}
+body{
+  font-family:  "Times New Roman", Arial, Helvetica;
+  font-size: 100%;
+  margin: 0%;
+  border: 0%;
+  padding: 0%;
+}
+h1{
+	font-size: 300%;
+	font-weight: bold;
+	text-align: center;
+}
+h2{
+	font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  width:100%;
+  margin: 0%;
+  border: 0%;
+  padding:10px 0px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: blue;
+}
+.contacts{
+  background-color:#96e1ff;
+  width: 100%;
+  padding:10px 0px;
+}
+.table{
+  width: 100%;
+}
+.column {
+  width: 25%;
+  font-size: 125%;
+  text-align: center;
+  margin: 0%;
+  border: 0%;
+  padding: 0%;
+}
+.about{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding:10px 0px;
+  border: 0%;
+  margin: 0%;
+}
+.aboutHeader{
+  text-align: center;
+  justify-content: center;
+  font-size: 200%;
+  font-weight: bold;
+  width: 15%;
+  margin: auto;
+  border: 0%;
+  padding: 0%;
+}
+.aboutText{
+  text-align: center;
+  font-size: 125%;
+  width: 85%;
+  height: 100%;
+  margin: 0%;
+  border: 0%;
+  padding: 0%;
+}
+.resume{
+  padding:10px 0px;
+}
+.experienceAndProjects{
+  display: flex;
+  flex-direction: row;
+}
+.tab{
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  width: 50%;
+  margin: 0%;
+  border-color:grey;
+  border-radius: 10px;
+  border-top-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: none;
+  padding:10px 0px;
+  transition: .3s;
+  outline: none;
+  cursor: pointer;
+}
+.tab:hover{
+  background-color:lightgray;
+}
+.tab.active{
+  background-color:#96e1ff;
+}
+.layer{
+  display:none;
+  padding:10px 0px;
+  background-color:#96e1ff;
+}
+.experienceHeader{
+  font-size: 150%;
+  margin: 0%;
+  border: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.experience{
+  font-size: 125%;
+  margin: 0%;
+  border: 0%;
+  padding-left: 40px;
+}
+.projectHeader{
+  font-size: 150%;
+  margin: 0%;
+  border: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.project{
+  font-size: 125%;
+  margin: 0%;
+  border: 0%;
+  padding-left: 40px;
+}

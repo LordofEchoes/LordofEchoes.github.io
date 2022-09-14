@@ -1,0 +1,121 @@
+<!DDOCTYPE html>
+<html>
+  
+<head>
+<title>Andy's Portfolio</title>
+  <link rel = "stylesheet" href = "style.css">
+  <script src = "https://kit.fontawesome.com/0710c77a66.js" crossorigin = "anonymous"></script>
+  <script src="script.js"></script>
+</head>
+  
+<body onload="document.getElementById('defaultOpen').click();">
+  <div>
+    <img src = "Good-132.jpg">
+    <div class = "headertext">
+      <h1>Hello, I'm</h1>
+      <h1>Andy Kuei</h1>
+    </div>
+  </div>
+  <div class = "about">
+    <div class = "aboutHeader">
+      About Me:
+    </div>
+    <div class="aboutText">
+      <p>A graduate from the University of California: Irvine with a double major in Computer Science and Mathematics. A life-long learner, seeking knowledge and growth on a daily basis! Enjoys working with others; offering strong communication skills. Seeking employment in Software Engineering and looking to build my skills in computer programming!</p>
+    </div>
+  </div>
+  <div class = "contacts">
+    <h2>Contacts</h2>
+    <table class ="table"> 
+      <tr>
+        <th class = "column">Email:</th>
+        <th class = "column">Phone:</th>
+        <th class = "column">Github:</th>
+        <th class = "column">LinkedIn:</th>
+      </tr>
+      <tr>
+        <td class = "column"> <a href="mailto:akuei9000@gmail.com"><i class="fa-regular fa-envelope"></i> akuei9000@gmail.com </a> </td>
+        <td class = "column">+1 (408) 476-9598</td>
+        <td class = "column"><a href="https://github.com/LordofEchoes" target = "_blank"> <i class="fa-brands fa-github"></i> click me!</td>
+        <td class = "column"><a href=https://www.linkedin.com/in/andykuei9000/" target = "_blank"> <i class="fa-brands fa-linkedin"></i> click me!</td>
+      </tr>
+    </table>
+  </div>
+  <div class = "resume">
+    <h2><a href=Resume_Short.pdf target="_blank">Resume</a></h2>
+    <iframe src="Resume_Short.pdf" name="Resume" width="100%" height="1000px"> </iframe>
+  </div>
+  <div class = "experienceAndProjects">
+    <button class="tab" onclick="openLayer(event, 'experienceLayer')" id="defaultOpen">Experience</button>
+    <button class="tab" onclick="openLayer(event, 'projectLayer')" id="projectTab">Project</button>
+  </div>
+  <div id="experienceLayer" class = "layer" >
+    <div class = "experienceHeader">
+      Virtual Student Federal Service Internship - U.S.Department of Health and Human services
+    </div>
+    <div class = "experience">
+      <ul>
+      <li>Collaborated in a team of four to prototype the Grants.gov website in Salesforce to modernize the website. This allows for
+single user sign in and it provides simpler user interface for finding and applying for grants.</li>
+      <li>Investigated Salesforce features such as user permissions, profiles, and object sharing roles to determine if Grants.gov can leverage them for further improvements.</li>
+      <li>Saved the U.S. government millions of taxpayer dollars through prototyping this single sign-on noninvasive recipient portal for grantors and grantees.</li>
+    </ul>
+    </div>
+    <div class = "experienceHeader">
+      UCI ICS Lab: Tutor
+    </div>
+    <div class = "experience">
+      <ul>
+      <li>Advised and taught first year UCI Informatics and Computer Science students about Python and assisted them with their first
+programming class</li>
+      <li>Provided lab hours to teach Object Oriented Programming concepts, data types & structures, functions in Python </li>
+      <li>Helped students pass their classes through guidance and tips on their labs and provided safe spaces where students are
+encouraged to reach out to staff</li>
+    </ul>
+    </div>
+    <div class = "experienceHeader">
+      The Coder School: Tutor
+    </div>
+    <div class = "experience">
+      <ul>
+        <li>Taught kids between the ages of 8-16 Python on a weekly basis</li>
+        <li>Guided students through OOP, functions, recursion, searching and sorting techniques, and data structures</li>
+        <li>Established relationships with young students to further their academic success and pursue computer science</li>
+      </ul>
+    </div>
+  </div>
+  <div id="projectLayer" class = "layer" >
+    <div class = "projectHeader">
+      Minesweeper Artificial Intelligence 
+    </div>
+    <div class = "project">
+      <ul>
+        <li>Implemented subsets, matrices, and probabilistic algorithms to play the game of minesweeper</li> 
+        <li>Used Python and Python libraries such as NumPy to perform Gaussian Elimination to solve solutions on frontier</li>
+        <li>Achieved fourth place in a class tournament of 200 students with a functional minesweeper solver capable of solving 400 of
+1000 games on a 16x30 board with 99 mines, 500 of 1000 games on a 16x16 board with 40 mines, and 900 of 1000 games on a 9x9 board with 10 mines</li>
+      </ul>
+    </div>
+    <div class = "projectHeader">
+      Sports Bot
+    </div>
+    <div class = "project">
+      <ul>
+        <li>Used Machine Learning Pipeline, sequence to sequence model, and PyTorch library to create a conversational chatbot capable of responding to user questions</li>
+        <li>Created corpus to train the chat bot by collecting 100,000+ reddit post and comment pairs parsed as json files</li>
+        <li>Lead testing of the Sports Bot through user studies and organized the presentation of data to peers and advisors</li>
+      </ul>
+    </div>
+    <div class = "projectHeader">
+      Food For Thought iOS Application
+    </div>
+    <div class = "project">
+      <ul>
+        <li>Developed an iOS health application in a team of three that took a user's physical health data and gave diet recommendations to achieve goals set by the user</li>
+        <li>Designed frontend of the app through Swift for iOS and built the backend database using MongoDB</li>
+        <li>Queried nutritional info from Spoonacular API and web scraped fast food chains into SQL queries</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
